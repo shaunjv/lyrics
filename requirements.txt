@@ -1,0 +1,4 @@
+Flask
+spotipy
+lyricsgenius
+gunicorn

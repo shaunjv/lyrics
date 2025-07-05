@@ -1,0 +1,27 @@
+body {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+pre {
+    white-space: pre-wrap;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+#lyrics {
+    font-size: 5vw; /* Use viewport width for mobile scaling */
+}
+
+@media (min-width: 600px) {
+    #lyrics {
+        font-size: 22px; /* Fixed size for desktop */
+    }
+}
+
